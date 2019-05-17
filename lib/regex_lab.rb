@@ -12,7 +12,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   first_letter = text.scan(/\w+/)[0]
-  if text.scan(/\./) && text.scan()
+  if text.scan(/\./) && (first_letter == first_letter.upcase)
 end
 
 def valid_phone_number?(phone)
